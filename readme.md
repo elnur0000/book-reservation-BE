@@ -26,3 +26,6 @@ npm run test
 ```
 api docs very soon...
 
+## Demo
+
+Extensive documentation with examples [here](https://documenter.getpostman.com/view/10105794/SWTABz1E?version=latest)
