@@ -1,0 +1,35 @@
+[
+{
+ "currentOwner": "123",
+ "name": "ML Basics",
+ "author": "John Doe",
+ "description": "This book is about love between john doe and female spider called jane doe",
+ "img": "https://images-na.ssl-images-amazon.com/images/I/91OME-jyFmL.jpg",
+ "nextOwner": "345"
+},
+{
+ "name": "Advanced Javascript",
+ "author": "Jane Doe",
+ "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+ "img": "https://images.squarespace-cdn.com/content/v1/54d262dde4b02fc9b49ecf9c/1522975869432-RRNG4FPX0LCJD205NT88/ke17ZwdGBToddI8pDm48kEuv4Y4t3q1rAAZ3bBSUazl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1US9-0cW5aPUUMJ-3sw1AVU3jPrGIyYMQT1mVx6iI98dTG6v6ULRah83RgHXAWD5lbQ/Atthegoingdownofthesun_mockup.png"
+},
+{
+ "currentOwner": "123",
+ "name": "how to become wise man",
+ "author": "Tom doe",
+ "description": "Here are some examples of words that sound like speech but that are really gibberish nonsense with no meaning: Supercalifragilisticexpialidocious",
+ "img": "https://damonza.com/wp-content/uploads/portfolio/nonfiction/Set%20For%20Life%202.jpg"
+},
+{
+ "name": "how to bark like a dog",
+ "author": "Mate",
+ "description": "kaci shedis saxinkleshi",
+ "img": "https://damonza.com/wp-content/uploads/portfolio/nonfiction/Set%20For%20Life%202.jpg"
+},
+{
+ "name": "work",
+ "author": "random author",
+ "description": "gaixaret",
+ "img": "https://www.engine-house.co.uk/wp-content/uploads/2016/03/MrMercedes_2.gif"
+}]
+
