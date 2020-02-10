@@ -29,8 +29,5 @@ api docs very soon...
 ## Demo
 
 Extensive documentation with examples [here](https://documenter.getpostman.com/view/10105794/SWTABz1E?version=latest)
-<<<<<<< HEAD
-=======
 
 Backend url soon...
->>>>>>> 38bea9ac5bbf055b85f599563b2389cb5461cfd3

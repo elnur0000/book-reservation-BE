@@ -1,17 +1,21 @@
-version: '3'
+version: '2.4'
 services:
   server:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: . 
+    command: ./node_modules/nodemon/bin/nodemon.js -L bin/www
     ports:
-      - "5000:5000"
+      - 5000:5000
     depends_on:
-    - mongo
+      mongo:
+        condition: service_healthy
     volumes:
-      - /app/node_modules
       - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    environment: 
+      - NODE_ENV=development
   mongo:
     image: mongo
     ports:
-    - "27017:27017"
+    - 27017:27017
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongo mongo:27017/test --quiet 1

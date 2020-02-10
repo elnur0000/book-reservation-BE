@@ -1,12 +1,15 @@
-FROM node:13
+FROM node:12.14.1-alpine
 
-WORKDIR /usr/src/app
+ENV NODE_ENV=production
+
+WORKDIR /usr/src
 
 COPY package*.json ./
 
+RUN npm install && npm cache clean --force
 
-RUN npm install
-RUN npm install nodemon -g
+WORKDIR /usr/src/app
+
 COPY . .
 
-CMD ["npm","run","dev"]
+CMD ["node","bin/www"]
