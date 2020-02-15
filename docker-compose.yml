@@ -2,7 +2,7 @@ version: '2.4'
 services:
   server:
     build: . 
-    command: ./node_modules/nodemon/bin/nodemon.js -L bin/www
+    target: dev
     ports:
       - 5000:5000
     depends_on:
